@@ -1,8 +1,10 @@
 package com.example.recyclerview;
 
+
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
+
 public class examViewHolder extends RecyclerView.ViewHolder {
     TextView examName;
     TextView examMessage;

@@ -9,7 +9,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.Collections;
 import java.util.List;
+
 public class ImageGalleryAdapter2 extends RecyclerView.Adapter<examViewHolder> {
+
     List<examData> list
             = Collections.emptyList();
 
@@ -80,4 +82,6 @@ public class ImageGalleryAdapter2 extends RecyclerView.Adapter<examViewHolder> {
     {
         super.onAttachedToRecyclerView(recyclerView);
     }
+
+
 }
